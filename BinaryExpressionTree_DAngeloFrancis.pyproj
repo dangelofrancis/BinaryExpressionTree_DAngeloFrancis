@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d4a4e291-fdf1-4124-be74-60402721e07c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BinaryExpressionTree_DAngeloFrancis.py</StartupFile>
+    <StartupFile>binary_expression_tree.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BinaryExpressionTree_DAngeloFrancis.py" />
+    <Compile Include="binary_expression_tree.py" />
+    <Compile Include="main.py" />
+    <Compile Include="stack.py" />
+    <Compile Include="tree_node.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
